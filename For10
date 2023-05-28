@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+ int n;
+    cout << "Imput n";
+    cin >> n;
+    int i;
+    float summa = 0;
+    for  (i=1; i<=n; i++)
+      summa += 1/(float)i;
+    cout << "Summa =" << summa;
+}
