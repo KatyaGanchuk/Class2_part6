@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+   int K, N;
+    cout << "Imput K";
+    cin >> K;
+    cout << "Imput N";
+    cin >> N;
+    int i;
+    for  (i = 0; i < N;  ++i)
+        cout <<"N times the number K"<<K << endl;
+}
