@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+   int A, B;
+    cout << "Imput A";
+    cin >> A;
+    cout << "Imput B";
+    cin >> B;
+    int i;
+    for  (i = A; i<=B;  ++i)
+     cout << i << endl;
+     cout << "number N of these numbers" << B-A+1 << endl;
+}
