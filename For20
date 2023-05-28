@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+ int N;
+    cout<<"Imput N";
+    cin>>N;
+    float N1 = 1, Result = 0;
+    int i;
+    for (i = 1; i <= N; ++i) {
+        N1 *= (float)i;
+        Result += N1;
+    }
+    cout<<"Rezultat"<< Result;
+}
